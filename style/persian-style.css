@@ -1,34 +1,34 @@
 @font-face {
-    font-family: "Vazirmatn";
-    src: url("../fonts/Vazirmatn-VariableFont_wght.ttf") format("truetype");
-    font-weight: 100 900;
-    font-style: normal;
+  font-family: "Vazirmatn";
+  src: url("../fonts/Vazirmatn-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
 }
 
 html,
 body {
-    font-family: "Vazirmatn", Arial, sans-serif;
+  font-family: "Vazirmatn", Arial, sans-serif;
 }
 
 body {
-    direction: rtl;
+  direction: rtl;
 }
 
 .profile-header {
-    direction: ltr;
+  direction: ltr;
 }
 
 .profile-info {
-    direction: rtl;
-    text-align: right;
+  direction: rtl;
+  text-align: right;
 }
 
 .profile-photo {
-    direction: ltr;
+  direction: ltr;
 }
 
 .links {
-    text-align: right;
+  text-align: right;
 }
 
 .t-meabou,
@@ -38,56 +38,56 @@ body {
 .education,
 .lang,
 .contact {
-    direction: rtl;
-    text-align: right;
+  direction: rtl;
+  text-align: right;
 }
 
 .skill {
-    text-align: right;
+  text-align: right;
 }
 
 .skill ul {
-    padding-left: 0;
-    padding-right: 20px;
+  padding-left: 0;
+  padding-right: 20px;
 }
 
 .experiences p {
-    border-left: none;
-    border-right: 3px solid #58a6ff;
+  border-left: none;
+  border-right: 3px solid #58a6ff;
 }
 
 .project {
-    text-align: right;
+  text-align: right;
 }
 
 .education p {
-    white-space: pre-line;
+  white-space: pre-line;
 }
 
 .language-btn {
-    display: block;
-    width: fit-content;
-    margin: 12px auto 0;
-    padding: 7px 14px;
-    color: #58a6ff;
-    text-decoration: none;
-    border: 1px solid #58a6ff;
-    border-radius: 8px;
-    transition: 0.25s;
-    direction: rtl;
+  display: block;
+  width: fit-content;
+  margin: 12px auto 0;
+  padding: 7px 14px;
+  color: #58a6ff;
+  text-decoration: none;
+  border: 1px solid #58a6ff;
+  border-radius: 8px;
+  transition: 0.25s;
+  direction: rtl;
 }
 
 .language-btn:hover {
-    background: #58a6ff;
-    color: #0d1117;
+  background: #58a6ff;
+  color: #0d1117;
 }
 
 @media (max-width: 700px) {
-    .profile-header {
-        direction: ltr;
-    }
+  .profile-header {
+    direction: ltr;
+  }
 
-    .profile-info {
-        direction: rtl;
-    }
+  .profile-info {
+    direction: rtl;
+  }
 }
